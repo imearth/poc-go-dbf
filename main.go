@@ -10,4 +10,7 @@ import (
 func main() {
 	fmt.Println("Hello from main!")
 	mypackage.MyFunction()
+	mypackage.CreateDBF("test.dbf")
+	mypackage.UpdateDBF("test.dbf", "John Doe", "John Doe Updated", "31")
+
 }
