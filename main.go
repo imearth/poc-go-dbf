@@ -1,11 +1,13 @@
+// main.go
 package main
 
 import (
-    "fmt"
-    "github.com/yourusername/my-go-project/pkg/mypackage"
+	"fmt"
+
+	"github.com/imearth/poc-go-dbf/pkg/mypackage"
 )
 
 func main() {
-    fmt.Println("Hello from main!")
-    mypackage.MyFunction()
+	fmt.Println("Hello from main!")
+	mypackage.MyFunction()
 }
