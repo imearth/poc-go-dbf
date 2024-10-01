@@ -1,3 +1,4 @@
 # .gitignore
 /my-go-project
 *.exe
+.env
